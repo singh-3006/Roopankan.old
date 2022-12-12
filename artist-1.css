@@ -1,0 +1,50 @@
+.card1{
+    background-image: url(images/art-1.jpg);
+}
+.card2{
+    background-image: url(images/art-2.jpg);
+}
+.card3{
+    background-image: url(images/art-3.jpg);
+}
+.card4{
+    background-image: url(images/art-4.jpg);
+}
+.card:hover{
+    transform: translateY(-10px);
+}
+
+.f2{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    flex-basis: 80%;
+      
+}
+.btn3{
+    margin-top: 30px;
+}
+.us-2{
+    background-color: antiquewhite;
+    border-radius: 15px;
+}
+.form-2{
+   margin: 5% 10%;
+}
+.row-f{
+    margin-bottom: 50px;
+}
+.f2 input{
+    border-radius: 10px;
+}
+.f2 h5{
+    margin-left: 2%;
+    margin: 1%;
+    font-weight: 500;
+    
+}
+.f2 h3{
+    font-weight: 600;
+    margin-bottom: 30px;
+    font-size: 28px;
+    
+}

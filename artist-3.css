@@ -1,0 +1,15 @@
+.card1{
+    background-image: url(images/nat-1.jpg);
+}
+.card2{
+    background-image: url(images/nat-2.jpg);
+}
+.card3{
+    background-image: url(images/nat-3.jpg);
+}
+.card4{
+    background-image: url(images/nat-4.jpg);
+}
+.card:hover{
+    transform: translateY(-10px);
+}

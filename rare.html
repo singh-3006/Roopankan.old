@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Research and Collections</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="artist-1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo-1.png"> </a>
+            <div class="nav-link" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()" ></i>
+                
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="index-about.html">ABOUT</a></li>
+                    <li><a href="index-contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+      <h1>Research and Collections</h1>
+    </section>
+
+    <section class="facilities">
+        <h1>Rare Books</h1>
+        <p>The National Gallery of Art Library rare books collection comprises over 12,000 volumes of early printed books and primary source material related to the history of Western art from the Middle Ages to the present, particularly the Italian, Dutch, Flemish, French, German, Spanish, British, and American schools.</p>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/rare-1.jpg">
+                <h3>Biographies of Artists</h3>
+                <p>The rare books collection contains one of the most complete samplings of compendium biographies of artists available anywhere around the world. </p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/rare-2.jpg">
+                <h3>Collection Catalogues</h3>
+                <p>Catalogues of the works in public collections are abundant, but the rare books collection also contains one of the largest assemblies of private collection catalogs available in a public institution. </p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/rare-3.jpg">
+                <h3>Art Materials</h3>
+                <p>Catalogues of materials, especially paint and color sample books, are an important resource for researchers and conservators. They provide vital clues about the materials available in a given time and place which can illuminate an artist’s original intention. </p>
+            </div>
+        </div>
+
+    </section>
+
+   
+    
+
+    
+
+
+
+    <section class="footer">
+        <h4>Social media links</h4>
+        <p>
+            The Art Gallery ROOPANKAN serves the nation 
+            by welcoming all people to explore and experience art, creativity, 
+            and our shared humanity.<br>
+        Visit our pages to know more about us.</p>
+        <div class="icons">
+            <a href="https://www.facebook.com/profile.php?id=100078933575838"><i class="fa fa-facebook"></i></a>
+            <a href="https://twitter.com/i/flow/login"><i class="fa fa-twitter"></i></a>
+           <a href="https://www.linkedin.com/in/abhishek-kumar-singh-3b97a5240"><i class="fa fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/invites/contact/?i=pqst3vb4vzb3&utm_content=nq16hkk"><i class="fa fa-instagram"></i></a>
+        </div>
+        <div class="footer-col">
+        <img src="images/iste.jpg">
+        <p> This website is made for the competition SPIDER 3.0 which is organised 
+            by ISTE_BITS. 
+        </p>
+        </div>
+    </section>
+
+
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-150px";
+        }
+        
+    </script>
+    
+</body>
+</html>

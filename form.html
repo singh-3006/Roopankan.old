@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registeration Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="artist-1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo-1.png"> </a>
+            <div class="nav-link" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()" ></i>
+                
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="index-about.html">ABOUT</a></li>
+                    <li><a href="index-contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+      <h1>Join Today!</h1>
+    </section>
+
+    <section class="contact-us us-2">
+
+        <div class="row row-f">
+
+            <div class="contact-col f2">
+                <form action="" class="form-2">
+                    <h3>Registeration Form</h3>
+                    <h5>Enter your first name</h5>
+                    <input type="text" placeholder="First name" required>
+                    <h5>Enter your last name</h5>
+                    <input type="text" placeholder="Last name" required>
+                    <h5>Enter your email </h5>
+                    <input type="email" placeholder="Enter email address" required>
+                    <h5>Enter your mobile no</h5>
+                    <input type="number" placeholder="Enter your mobile no." required>
+    
+                    <button type="submit" class="btn2 btn3">Submit!</button>
+                </form>
+
+            </div>
+
+        </div>
+
+    </section>
+    
+
+    
+
+
+
+    <section class="footer">
+        <h4>Social media links</h4>
+        <p>
+            The Art Gallery ROOPANKAN serves the nation 
+            by welcoming all people to explore and experience art, creativity, 
+            and our shared humanity.<br>
+        Visit our pages to know more about us.</p>
+        <div class="icons">
+            <a href="https://www.facebook.com/profile.php?id=100078933575838"><i class="fa fa-facebook"></i></a>
+            <a href="https://twitter.com/i/flow/login"><i class="fa fa-twitter"></i></a>
+           <a href="https://www.linkedin.com/in/abhishek-kumar-singh-3b97a5240"><i class="fa fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/invites/contact/?i=pqst3vb4vzb3&utm_content=nq16hkk"><i class="fa fa-instagram"></i></a>
+        </div>
+        <div class="footer-col">
+        <img src="images/iste.jpg">
+        <p> This website is made for the competition SPIDER 3.0 which is organised 
+            by ISTE_BITS. 
+        </p>
+        </div>
+    </section>
+
+
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-150px";
+        }
+        
+    </script>
+    
+</body>
+</html>

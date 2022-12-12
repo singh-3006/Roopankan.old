@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About us</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo-1.png"> </a>
+            <div class="nav-link" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()" ></i>
+                
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="index-about.html">ABOUT</a></li>
+                    <li><a href="index-contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+      <h1>About us</h1>
+    </section>
+
+
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>ROOPANKAN</h1>
+                <p>Representing a roster of artists across four generations, 
+                    Art Gallery ROOPANKAN was established in 1987 with a passion
+                     to pioneer Indian art as a conduit of cultural celebration, 
+                     intellect and value in the public milieu. A confidante to art 
+                     history and a paladin to contemporary art, the gallery supports
+                      a vibrant and flourishing ecosystem that at its center heroes the
+                       artist and their work.<br><br><br>
+
+ 
+
+                    Modern masters like M.F. Husain, Ram Kumar, S.H. Raza and 
+                    Tyeb Mehta find prime spot in the gallery’s calendar alongside the 
+                    subsequent generation of modernists like Arpita Singh, A. Ramachandran, 
+                    Nalini Malani, Gulammohammed Sheikh and Rameshwar Broota. <br><br>The gallery’s 
+                    expansive contemporary programme includes some of the most exciting names
+                     in Indian art such as Atul Dodiya, Shilpa Gupta, Anju Dodiya, N.S. Harsha and Sunil Gupta, as well as young emerging talent like Sachin George Sebastian, Shrimanti Saha and Shailesh B.R.<br>
+                    </p>
+                     
+                
+            </div>
+            <div class="about-col">
+                <img src="images/about-us.jpg">
+            </div>
+        </div>
+
+    </section>
+
+    
+
+
+
+
+    <section class="footer">
+        <h4>Social media links</h4>
+        <p>
+            The Art Gallery ROOPANKAN serves the nation 
+            by welcoming all people to explore and experience art, creativity, 
+            and our shared humanity.<br>
+        Visit our pages to know more about us.</p>
+        <div class="icons">
+            <a href="https://www.facebook.com/profile.php?id=100078933575838"><i class="fa fa-facebook"></i></a>
+            <a href="https://twitter.com/i/flow/login"><i class="fa fa-twitter"></i></a>
+           <a href="https://www.linkedin.com/in/abhishek-kumar-singh-3b97a5240"><i class="fa fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/invites/contact/?i=pqst3vb4vzb3&utm_content=nq16hkk"><i class="fa fa-instagram"></i></a>
+        </div>
+        <div class="footer-col">
+        <img src="images/iste.jpg">
+        <p> This website is made for the competition SPIDER 3.0 which is organised 
+            by ISTE_BITS. 
+        </p>
+        </div>
+    </section>
+
+
+
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-150px";
+        }
+        
+    </script>
+    
+</body>
+</html>
